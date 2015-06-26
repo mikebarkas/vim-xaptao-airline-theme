@@ -5,18 +5,18 @@
 
 let g:airline#themes#xaptao#palette = {}
 
-let s:N1   = [ '#333333' , '#cccccc' , 10  , 25, 'bold' ]
-let s:N2   = [ '#ffffff' , '#444444' , 255 , 238 ]
-let s:N3   = [ '#9cffd3' , '#202020' , 85  , 234 ]
+let s:N1   = [ '#333333' , '#cccccc' , 251  , 25 ]
+let s:N2   = [ '#ffffff' , '#444444' , 255 , 0 ]
+let s:N3   = [ '#9cffd3' , '#202020' , 247  , 233 ]
 let g:airline#themes#xaptao#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
 
 " Modified
 let g:airline#themes#xaptao#palette.normal_modified = {
-      \ 'airline_c': [ '#ffffff' , '#5f005f' , 255     , 53      , ''     ] ,
+      \ 'airline_c': [ '#ffffff' , '#5f005f' , 222     , 235      , ''     ] ,
       \ }
 
 
-let s:I1 = [ '#00005f' , '#00dfff' , 17  , 45  ]
+let s:I1 = [ '#00005f' , '#00dfff' , 17  , 22  ]
 let s:I2 = [ '#ffffff' , '#005fff' , 255 , 27  ]
 let s:I3 = [ '#ffffff' , '#000080' , 15  , 17  ]
 let g:airline#themes#xaptao#palette.insert = airline#themes#generate_color_map(s:I1, s:I2, s:I3)
