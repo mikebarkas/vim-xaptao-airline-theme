@@ -21,10 +21,10 @@ let s:I2 = [ '#333333' , '#cccccc' , 255  , 0   ]
 let s:I3 = [ '#333333' , '#cccccc' , 248  , 235 ]
 let g:airline#themes#xaptao#palette.insert = airline#themes#generate_color_map(s:I1, s:I2, s:I3)
 let g:airline#themes#xaptao#palette.insert_modified = {
-      \ 'airline_c': [ '#ffffff' , '#5f005f' , 255     , 237      , ''     ] ,
+      \ 'airline_c': [ '#333333' , '#cccccc' , 255     , 237      , ''     ] ,
       \ }
 let g:airline#themes#xaptao#palette.insert_paste = {
-      \ 'airline_a': [ s:I1[0]   , '#d78700' , s:I1[2] , 172     , ''     ] ,
+      \ 'airline_a': [ s:I1[0]   , '#cccccc' , s:I1[2] , 172     , ''     ] ,
       \ }
 
 
@@ -33,12 +33,12 @@ let g:airline#themes#xaptao#palette.replace.airline_a = [ s:I2[0]   , '#af0000' 
 let g:airline#themes#xaptao#palette.replace_modified = g:airline#themes#xaptao#palette.insert_modified
 
 
-let s:V1 = [ '#000000' , '#ffaf00' , 232 , 214 ]
-let s:V2 = [ '#000000' , '#ff5f00' , 232 , 202 ]
-let s:V3 = [ '#ffffff' , '#5f0000' , 15  , 52  ]
+let s:V1 = [ '#333333' , '#cccccc' , 232 , 214 ]
+let s:V2 = [ '#333333' , '#cccccc' , 255 , 0   ]
+let s:V3 = [ '#333333' , '#cccccc' , 248  , 235  ]
 let g:airline#themes#xaptao#palette.visual = airline#themes#generate_color_map(s:V1, s:V2, s:V3)
 let g:airline#themes#xaptao#palette.visual_modified = {
-      \ 'airline_c': [ '#ffffff' , '#5f005f' , 255     , 53      , ''     ] ,
+      \ 'airline_c': [ '#333333' , '#cccccc' , 255     , 237      , ''     ] ,
       \ }
 
 
