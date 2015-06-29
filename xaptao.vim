@@ -6,7 +6,7 @@
 let g:airline#themes#xaptao#palette = {}
 
 let s:N1   = [ '#333333' , '#cccccc' , 251 , 25  ]
-let s:N2   = [ '#333333' , '#cccccc' , 255 , 0   ]
+let s:N2   = [ '#333333' , '#cccccc' , 186 , 0   ]
 let s:N3   = [ '#333333' , '#cccccc' , 247 , 233 ]
 let g:airline#themes#xaptao#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
 
